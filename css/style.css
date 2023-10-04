@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    line-height: 1.6;
+    /* color: #7a7a7a; */
+    background-color: #b7ff32;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+ main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #0800ff;
+}
+
+
+ p {
+    margin-bottom: 15px;
+} 
+
+div {
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 20vh;
+}
+
+.chart-section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 20px solid #ff4cf0;
+    background-color: #c0f9ff;
+}
+
+.chart-container2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 90vh;
+}
+
+.chart-section2 {
+    flex: 1;
+    text-align: center;
+    padding: 300px;
+    border: 14px solid #00ff44;
+    background-color: #ffffff;
+}
+
+/* card image layout */
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    height: 40vh;
+    flex-grow: 1;
+}
+
+li:last-child {
+    flex-grow: 10;
+}
+
+/* img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    ask for HELP on this part
+} */
+
+@media (max-aspect-ratio: 1/1){
+    li {
+        height: 30vh;
+    }
+}
+
+@media (max-height: 480px) {
+    li {
+      height: 80vh;
+    }
+  }
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+    ul {
+      flex-direction: row;
+}
+
+li {
+    height: auto;
+    width: 100%;
+}
+img {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+}
+}
