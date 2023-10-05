@@ -1,4 +1,26 @@
+h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 60px;
+  }
 
+  h3 {
+    font-size: 60px;
+  }
+
+  h4 {
+    font-size: 80px;
+  }
+
+  h5 {
+    font-size: 40px;
+  }
+  
+  p {
+    font-size: 50px;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -37,9 +59,27 @@ a:hover {
     text-decoration: underline;
 }
 
-h1, h2 {
+h1 {
     color: #0800ff;
 }
+
+h2 {
+    color: #b7ff32;
+}
+
+h3 {
+    color: #ff0080;
+}
+
+h4 {
+    color: #721818;
+}
+
+h5 {
+    color: #ffa600;
+}
+
+
 
 
  p {
@@ -108,7 +148,6 @@ li:last-child {
     min-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-    ask for HELP on this part
 } 
 
 @media (max-aspect-ratio: 1/1){

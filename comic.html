@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Title Of Your Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      .container {
+        position: static;
+      }
+      .image1 {
+        position: absolute;
+        top: 300px;
+        left: 5px;
+        width: auto;
+        height: auto;
+        transition: transform 0.5s ease;
+      }
+      body{
+      background-color: blue;
+    }
+    /* .image-container{
+        position: relative;
+        width: 15px;
+        height: 10px;
+        overflow: hidden;
+      } */
+       .image1 img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+      } 
+      .zoom-image {
+        transition: transform 0.8s ease-in-out;
+      }
+       .image-container:hover .zoom-image {
+        transform: scale(1.1);
+      } 
+      </style>
+  </head>  
+  <body>
+    <h2>
+        Working from Home
+    </h2>
+    <h4>
+        A short comic relating to the Daniel's love universe
+    </h4>
+    <div class="image-container">
+        <img src="images/part2.png" width="400" height="500" class="image1 zoom-image">
+        <img src="images/part1.png" class="image1 zoom-image" width="400" height="500">
+        <img src="images/part3.png" class="image1 zoom-image" width="400" height="500">
+        <img src="images/part4.png" class="image1 zoom-image" width="400" height="500">
+        <img src="images/part5.png" class="image1 zoom-image" width="400" height="500">
+        <img src="images/part6.png" class="image1 zoom-image" width="400" height="500">
+    </div>
+    <img src="images/page2.jpg">
+  </body>
+</html>
